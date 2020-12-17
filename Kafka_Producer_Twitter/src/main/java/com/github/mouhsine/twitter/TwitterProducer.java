@@ -99,7 +99,7 @@ public class TwitterProducer
             {
                 logger.info(msg);
                 // send data - asynchronous
-                producer.send(new ProducerRecord<String, String>("twitter_tweets", null, msg), new Callback() {
+                producer.send(new ProducerRecord<String, String>("twitter_msg", null, msg), new Callback() {
                     @Override
                     public void onCompletion(RecordMetadata recordMetadata, Exception e) {
                         if( e != null){
