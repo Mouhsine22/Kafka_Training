@@ -9,7 +9,9 @@
         <module name="Kafka_Producer_Twitter" />
         <module name="Kafka_Basics" />
         <module name="Kafka_consumer_elasticSearch" />
+        <module name="kafka-streams-fillter-tweets" />
         <module name="FirstAppKafka" />
+        <module name="kafka-connect" />
       </profile>
     </annotationProcessing>
   </component>
